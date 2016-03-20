@@ -15,5 +15,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/LIYANG" />
+        android:text="@string/LIYANG"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/str_ok"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp"
+        android:singleLine="true"
+        android:visibility="visible"
+        android:textStyle="normal"
+        android:enabled="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentTop="false" />
+
 </RelativeLayout>
